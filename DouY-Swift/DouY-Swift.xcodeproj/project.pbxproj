@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6F11F561E554E33004BFF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F11F551E554E33004BFF83 /* AppDelegate.swift */; };
+		B6F11F581E554E33004BFF83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F11F571E554E33004BFF83 /* ViewController.swift */; };
+		B6F11F5B1E554E33004BFF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F11F591E554E33004BFF83 /* Main.storyboard */; };
+		B6F11F5D1E554E33004BFF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F11F5C1E554E33004BFF83 /* Assets.xcassets */; };
+		B6F11F601E554E33004BFF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F11F5E1E554E33004BFF83 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6F11F521E554E33004BFF83 /* DouY-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DouY-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F11F551E554E33004BFF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6F11F571E554E33004BFF83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6F11F5A1E554E33004BFF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6F11F5C1E554E33004BFF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6F11F5F1E554E33004BFF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6F11F611E554E33004BFF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6F11F4F1E554E32004BFF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6F11F491E554E32004BFF83 = {
+			isa = PBXGroup;
+			children = (
+				B6F11F541E554E33004BFF83 /* DouY-Swift */,
+				B6F11F531E554E33004BFF83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6F11F531E554E33004BFF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6F11F521E554E33004BFF83 /* DouY-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6F11F541E554E33004BFF83 /* DouY-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B6F11F551E554E33004BFF83 /* AppDelegate.swift */,
+				B6F11F571E554E33004BFF83 /* ViewController.swift */,
+				B6F11F591E554E33004BFF83 /* Main.storyboard */,
+				B6F11F5C1E554E33004BFF83 /* Assets.xcassets */,
+				B6F11F5E1E554E33004BFF83 /* LaunchScreen.storyboard */,
+				B6F11F611E554E33004BFF83 /* Info.plist */,
+			);
+			path = "DouY-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6F11F511E554E32004BFF83 /* DouY-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F11F641E554E33004BFF83 /* Build configuration list for PBXNativeTarget "DouY-Swift" */;
+			buildPhases = (
+				B6F11F4E1E554E32004BFF83 /* Sources */,
+				B6F11F4F1E554E32004BFF83 /* Frameworks */,
+				B6F11F501E554E32004BFF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DouY-Swift";
+			productName = "DouY-Swift";
+			productReference = B6F11F521E554E33004BFF83 /* DouY-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6F11F4A1E554E32004BFF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Onery;
+				TargetAttributes = {
+					B6F11F511E554E32004BFF83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LB5FL2PR9E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6F11F4D1E554E32004BFF83 /* Build configuration list for PBXProject "DouY-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6F11F491E554E32004BFF83;
+			productRefGroup = B6F11F531E554E33004BFF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6F11F511E554E32004BFF83 /* DouY-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6F11F501E554E32004BFF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F11F601E554E33004BFF83 /* LaunchScreen.storyboard in Resources */,
+				B6F11F5D1E554E33004BFF83 /* Assets.xcassets in Resources */,
+				B6F11F5B1E554E33004BFF83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6F11F4E1E554E32004BFF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F11F581E554E33004BFF83 /* ViewController.swift in Sources */,
+				B6F11F561E554E33004BFF83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6F11F591E554E33004BFF83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6F11F5A1E554E33004BFF83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6F11F5E1E554E33004BFF83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6F11F5F1E554E33004BFF83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6F11F621E554E33004BFF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6F11F631E554E33004BFF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6F11F651E554E33004BFF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LB5FL2PR9E;
+				INFOPLIST_FILE = "DouY-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Onery.DouY-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6F11F661E554E33004BFF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LB5FL2PR9E;
+				INFOPLIST_FILE = "DouY-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Onery.DouY-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6F11F4D1E554E32004BFF83 /* Build configuration list for PBXProject "DouY-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F11F621E554E33004BFF83 /* Debug */,
+				B6F11F631E554E33004BFF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F11F641E554E33004BFF83 /* Build configuration list for PBXNativeTarget "DouY-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F11F651E554E33004BFF83 /* Debug */,
+				B6F11F661E554E33004BFF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6F11F4A1E554E32004BFF83 /* Project object */;
+}
