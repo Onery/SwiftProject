@@ -261,6 +261,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LB5FL2PR9E;
 				INFOPLIST_FILE = "DouY-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = " ";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Onery.DouY-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LB5FL2PR9E;
 				INFOPLIST_FILE = "DouY-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = " ";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Onery.DouY-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
